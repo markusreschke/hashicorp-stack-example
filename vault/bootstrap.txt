@@ -1,0 +1,14 @@
+Root Token: s.jtW28HjAYylCdJ08hMwTLsYT
+Seal Key 1: AyUqAESp3ZQ3kyt5iMyzpJQIoM+VxGIDkIaKOBhASdI=
+Sealing Quorum: 1
+
+Nomad Token:
+Key                  Value
+---                  -----
+token                s.ZJdaBzGF2YgRgz8MpAZh5wEl
+token_accessor       x9rfHUbFrwGPx8QYSrxrc2rl
+token_duration       1h
+token_renewable      true
+token_policies       ["default" "nomad-server"]
+identity_policies    []
+policies             ["default" "nomad-server"]

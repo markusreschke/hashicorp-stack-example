@@ -1,0 +1,16 @@
+ {
+ 	"service": {
+    	"name": "service2",
+    	"port": 8080,
+    	"connect": { 
+    			"sidecar_service": {
+				"proxy": {
+          			"upstreams": [{
+             			"destination_name": "service1",
+             			"local_bind_port": 8082
+          			}]
+    			}
+    		}
+    	}
+  	}
+}
